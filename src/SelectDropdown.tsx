@@ -85,7 +85,7 @@ class SelectDropdown extends React.Component<SelectDropdownProps> {
     }
 
     const hasSpaces = SelectDropdown.spaces.test(inputValue);
-    return hasSpaces === false;
+    return false;
   };
 
   private containsOptions(inputValue: string): boolean {
